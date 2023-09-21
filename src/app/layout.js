@@ -1,3 +1,4 @@
+import Header from "./components/Header";
 import { sora } from "./fonts";
 import "@/app/styles/global.css";
 
@@ -10,7 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={sora.className}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
