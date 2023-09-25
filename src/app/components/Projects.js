@@ -1,15 +1,16 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { gloock } from "../fonts";
 import {
   PageWrapper,
   MainH1Title,
   Container,
   ImageContainer,
-  Center,
   ImageStyle,
   Box,
-  ChildContainer,
+  ParaMid,
+  Icon,
 } from "@/app/styles/styles.js";
 
 export default function Projects() {
@@ -28,13 +29,30 @@ export default function Projects() {
               style={ImageStyle}
             />
           </ImageContainer>
-          <ChildContainer>
-            <Center style={{ width: "40%" }}>
-              This is a Front-end I made for Pixel Beanz NFT which is on Polygon
-              chain, I used next js, react, styled components and some other
-              stuff to make this.
-            </Center>
-          </ChildContainer>
+          <ParaMid>
+            I've crafted an exciting website for Beanz Pixel NFTs on the Polygon
+            blockchain. By leveraging the power of Next.js, React, Styled
+            Components, and some other intriguing technologies, I've brought
+            this project to life.
+          </ParaMid>
+          <Icon>
+            <Link href="https://github.com/wajidsiddiqi" target="_blank">
+              <Image
+                src="/assets/icons/github_v2.svg"
+                width="36"
+                height="36"
+                alt="My Github"
+              />
+            </Link>
+            <Link href="https://twitter.com/abdulwajidsid" target="_blank">
+              <Image
+                src="/assets/icons/external_link.svg"
+                width="36"
+                height="36"
+                alt="My Twitter"
+              />
+            </Link>
+          </Icon>
         </Box>
       </Container>
     </PageWrapper>
