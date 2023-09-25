@@ -18,15 +18,15 @@ img {
   display: block;
 }
 
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 12px;
 }
 
 body::-webkit-scrollbar-track {
-  background: #18120b;
+  background: #f5ffd7;
 }
 
 body::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background: #ffaa00;
-} */
+  background: #465d00;
+}
