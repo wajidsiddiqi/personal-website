@@ -9,18 +9,19 @@ import EnlargeImage from "./components/EnlargeImage";
 import { TotalSupply } from "./components/getterFuntions";
 import Mint from "./components/Mint"; */
 import {
-  MainPageWrapper,
   MainH1Title,
   ParaBig,
   StyledButton,
   Container,
   Icon,
+  PageWrapper,
 } from "@/app/styles/styles.js";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
     <React.Fragment>
-      <MainPageWrapper>
+      <PageWrapper>
         <Container>
           <MainH1Title className={gloock.className}>
             Hello There! I'm Wajid, Your Full-Stack Web 3.0 Developer.
@@ -53,8 +54,9 @@ export default function Home() {
             </Link>
           </Icon>
         </Container>
-      </MainPageWrapper>
+      </PageWrapper>
       <Skills />
+      <Projects />
     </React.Fragment>
   );
 }
