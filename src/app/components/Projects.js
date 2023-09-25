@@ -36,7 +36,10 @@ export default function Projects() {
             this project to life.
           </ParaMid>
           <Icon>
-            <Link href="https://github.com/wajidsiddiqi" target="_blank">
+            <Link
+              href="https://github.com/wajidsiddiqi/project-2"
+              target="_blank"
+            >
               <Image
                 src="/assets/icons/github_v2.svg"
                 width="36"
@@ -44,7 +47,7 @@ export default function Projects() {
                 alt="My Github"
               />
             </Link>
-            <Link href="https://twitter.com/abdulwajidsid" target="_blank">
+            <Link href="https://project-2-nu.vercel.app/" target="_blank">
               <Image
                 src="/assets/icons/external_link.svg"
                 width="36"
