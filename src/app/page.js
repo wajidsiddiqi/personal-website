@@ -17,6 +17,7 @@ import {
   PageWrapper,
 } from "@/app/styles/styles.js";
 import Projects from "./components/Projects";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 export default function Home() {
   return (
@@ -57,6 +58,7 @@ export default function Home() {
       </PageWrapper>
       <Skills />
       <Projects />
+      <ScrollToTopButton />
     </React.Fragment>
   );
 }
