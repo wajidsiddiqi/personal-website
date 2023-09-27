@@ -9,7 +9,7 @@ import {
 } from "@/app/styles/styles.js";
 export default function Skills() {
   return (
-    <PageWrapper>
+    <PageWrapper id="skills">
       <MainH1Title className={gloock.className}>Skills</MainH1Title>
       <Container>
         <IconsContainer>
