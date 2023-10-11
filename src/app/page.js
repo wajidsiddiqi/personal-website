@@ -4,10 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { gloock } from "./fonts";
 import Skills from "./components/Skills";
-/* import Footer from "./components/Footer";
-import EnlargeImage from "./components/EnlargeImage";
-import { TotalSupply } from "./components/getterFuntions";
-import Mint from "./components/Mint"; */
+/* import Footer from "./components/Footer"; */
 import {
   MainH1Title,
   ParaBig,
