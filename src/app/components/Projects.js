@@ -21,6 +21,48 @@ export default function Projects() {
         <Box>
           <ImageContainer>
             <Image
+              src="/assets/project_images/project_4.png"
+              alt="Project 4"
+              width={0}
+              height={0}
+              layout="responsive"
+              style={ImageStyle}
+            />
+          </ImageContainer>
+          <ParaMid>
+            I've built this dApp, which utilizes Chainlink for randomness in a
+            lottery smart contract. Users participate by paying, and Chainlink
+            randomly (verifiably random) picks 3 winners (Gold, Silver, Bronze)
+            and sends funds to them proportionally.
+          </ParaMid>
+          <Icon>
+            <Link
+              href="https://github.com/wajidsiddiqi/project-4"
+              target="_blank"
+            >
+              <Image
+                src="/assets/icons/github_v2.svg"
+                width="36"
+                height="36"
+                alt="Project Repo"
+              />
+            </Link>
+            <Link
+              href="https://decentralizelottery.netlify.app/"
+              target="_blank"
+            >
+              <Image
+                src="/assets/icons/external_link.svg"
+                width="36"
+                height="36"
+                alt="Live Demo"
+              />
+            </Link>
+          </Icon>
+        </Box>
+        <Box>
+          <ImageContainer>
+            <Image
               src="/assets/project_images/project_1.png"
               alt="Project 1"
               width={0}
@@ -47,7 +89,7 @@ export default function Projects() {
                 alt="Project Repo"
               />
             </Link>
-            <Link href="https://project-2-nu.vercel.app/" target="_blank">
+            <Link href="https://beanzpixel.vercel.app/" target="_blank">
               <Image
                 src="/assets/icons/external_link.svg"
                 width="36"
@@ -86,10 +128,7 @@ export default function Projects() {
                 alt="Project Repo"
               />
             </Link>
-            <Link
-              href="https://650802f6df5e463f629674c5--snazzy-unicorn-46744e.netlify.app/"
-              target="_blank"
-            >
+            <Link href="https://kingkat.netlify.app/" target="_blank">
               <Image
                 src="/assets/icons/external_link.svg"
                 width="36"
