@@ -3,14 +3,14 @@ import Image from "next/image";
 import { gloock } from "../fonts";
 import {
   PageWrapper,
-  MainH1Title,
+  H1Title,
   Container,
   IconsContainer,
 } from "@/app/styles/styles.js";
 export default function Skills() {
   return (
     <PageWrapper id="skills">
-      <MainH1Title className={gloock.className}>Skills</MainH1Title>
+      <H1Title className={gloock.className}>Skills</H1Title>
       <Container>
         <IconsContainer>
           <Image
