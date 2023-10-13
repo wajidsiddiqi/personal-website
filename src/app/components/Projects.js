@@ -4,7 +4,7 @@ import Link from "next/link";
 import { gloock } from "../fonts";
 import {
   PageWrapper,
-  MainH1Title,
+  H1Title,
   Container,
   ImageContainer,
   ImageStyle,
@@ -16,7 +16,7 @@ import {
 export default function Projects() {
   return (
     <PageWrapper id="projects">
-      <MainH1Title className={gloock.className}>Projects</MainH1Title>
+      <H1Title className={gloock.className}>Projects</H1Title>
       <Container style={{ flexDirection: "row", flexWrap: "wrap" }}>
         <Box>
           <ImageContainer>
