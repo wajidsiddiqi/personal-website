@@ -9,7 +9,7 @@ import {
   MainH1Title,
   ParaBig,
   StyledButton,
-  Container,
+  MainContainer,
   Icon,
   PageWrapper,
 } from "@/app/styles/styles.js";
@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <PageWrapper>
-        <Container>
+        <MainContainer>
           <MainH1Title className={gloock.className}>
             Hello There! I'm Wajid, Your Full-Stack Web 3.0 Developer.
           </MainH1Title>
@@ -51,7 +51,7 @@ export default function Home() {
               />
             </Link>
           </Icon>
-        </Container>
+        </MainContainer>
       </PageWrapper>
       <Skills />
       <Projects />
