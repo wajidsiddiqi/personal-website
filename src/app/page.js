@@ -30,7 +30,7 @@ export default function Home() {
             together. I create cutting-edge web experiences that stand out in
             the digital landscape.
           </ParaBig>
-          <a href="mailto:wajidsiddiqi12@gmail.com" target="_blank">
+          <a href="mailto:wajidweb3dev@gmail.com" target="_blank">
             <StyledButton>Let's Build Together</StyledButton>
           </a>
           <Icon>
