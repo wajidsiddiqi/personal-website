@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 //!Colors
-const DarkLime = "#465d00";
-const LightLime = "#f5ffd7";
+const Dark = "#391a7b";
+const Light = "#e9dfff";
+const TextLight = "#fcfbff";
 
 const MaxWidth = styled.div`
   max-width: 1600px;
@@ -13,7 +14,7 @@ const MaxWidth = styled.div`
 const LogoText = styled.h1`
   font-size: 1.5rem;
   font-weight: 800;
-  color: ${DarkLime};
+  color: ${Dark};
 `;
 
 //!Wrappers Styles
@@ -33,7 +34,7 @@ const PageWrapper = styled(MaxWidth)`
 
 //!Heading Styles
 const MainH1Title = styled.h1`
-  color: ${DarkLime};
+  color: ${Dark};
   font-size: 6rem;
   /* text-transform: uppercase; */
   font-weight: 600;
@@ -49,7 +50,7 @@ const MainH1Title = styled.h1`
 `;
 
 const H1Title = styled.h1`
-  color: ${DarkLime};
+  color: ${Dark};
   font-size: 6rem;
   font-weight: 600;
   padding: 5rem;
@@ -65,7 +66,7 @@ const H1Title = styled.h1`
 
 //!Paragraph & Text Styles
 const ParaBig = styled.p`
-  color: ${DarkLime};
+  color: ${Dark};
   font-size: 1.5rem;
   line-height: 1;
   font-weight: 500;
@@ -81,7 +82,7 @@ const ParaBig = styled.p`
 
 const ParaMid = styled(ParaBig)`
   font-size: 1.2rem;
-  color: ${LightLime};
+  color: ${TextLight};
   font-weight: 500;
   line-height: 1.15;
 
@@ -129,7 +130,7 @@ const ChildContainer = styled(Center)`
 `;
 
 const Box = styled(Center)`
-  background-color: ${DarkLime};
+  background-color: ${Dark};
   padding: 1.5rem;
   border-radius: 2rem;
   gap: 1rem;
@@ -145,12 +146,12 @@ const Box = styled(Center)`
 //!Buttons Styles
 const StyledConnectButton = styled.button`
   padding: 0.8rem 1.8rem;
-  color: ${LightLime};
+  color: ${TextLight};
   cursor: pointer;
   border-radius: 4rem;
   font-family: inherit;
   border: none;
-  background-color: ${DarkLime};
+  background-color: ${Dark};
   font-size: 1.5rem;
   font-weight: 500;
 `;
@@ -174,7 +175,7 @@ const ScrollToTopButtonWrapper = styled.button`
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: ${DarkLime};
+  background-color: ${Dark};
   border: none;
   border-radius: 5rem;
   width: 50px;
@@ -193,7 +194,7 @@ const StyledNav = styled.nav`
   padding: 1rem;
   z-index: 98;
   position: fixed;
-  background-color: ${LightLime};
+  background-color: ${Light};
 `;
 
 const NavBarContainer = styled(Center)`
@@ -205,7 +206,7 @@ const NavLinkForIcon = styled.div`
 `;
 
 const NavLinkText = styled.div`
-  color: ${DarkLime};
+  color: ${Dark};
   font-weight: 600;
   cursor: pointer;
 `;
@@ -260,7 +261,7 @@ const StyledFooter = styled(StyledNav)`
 `;
 
 const FooterPara = styled.p`
-  color: ${DarkLime};
+  color: ${Dark};
   font-size: 1rem;
   line-height: 1;
   font-weight: 500;

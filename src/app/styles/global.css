@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  background-color: #f5ffd7;
+  background-color: #e9dfff;
   text-align: center;
 }
 
@@ -23,10 +23,10 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #f5ffd7;
+  background: #e9dfff;
 }
 
 body::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background: #465d00;
+  background: #391a7b;
 }

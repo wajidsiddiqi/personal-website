@@ -59,13 +59,13 @@ export default function Header() {
                   alt="Profile Photo"
                   style={{
                     borderRadius: "5rem",
-                    border: "#465d00 5px solid",
+                    border: "#391a7b 5px solid",
                   }}
                 />
               </div>
               <ChildContainer style={{ alignItems: "flex-start" }}>
-                <ParaSm style={{ color: "#465d00" }}>Wajid Siddiqi</ParaSm>
-                <ParaSm style={{ opacity: 0.5, color: "#465d00" }}>
+                <ParaSm style={{ color: "#391a7b" }}>Wajid Siddiqi</ParaSm>
+                <ParaSm style={{ opacity: 0.5, color: "#391a7b" }}>
                   Web 3.0 Developer
                 </ParaSm>
               </ChildContainer>
@@ -86,7 +86,7 @@ export default function Header() {
                   padding: "0",
                   alignItems: "center",
                   justifyContent: "center",
-                  backgroundColor: "#465d00",
+                  backgroundColor: "#391a7b",
                 }}
               >
                 <CenterSpaceAround style={{ flexDirection: "column" }}>
@@ -95,7 +95,7 @@ export default function Header() {
                     style={{ textDecoration: "none" }}
                     onClick={handleMenuClose}
                   >
-                    <NavLinkText style={{ color: "#f5ffd7" }}>Home</NavLinkText>
+                    <NavLinkText style={{ color: "#fcfbff" }}>Home</NavLinkText>
                   </NextLink>
 
                   <ScrollLink
@@ -104,7 +104,7 @@ export default function Header() {
                     duration={500}
                     onClick={handleMenuClose}
                   >
-                    <NavLinkText style={{ color: "#f5ffd7" }}>
+                    <NavLinkText style={{ color: "#fcfbff" }}>
                       Skills
                     </NavLinkText>
                   </ScrollLink>
@@ -115,7 +115,7 @@ export default function Header() {
                     duration={500}
                     onClick={handleMenuClose}
                   >
-                    <NavLinkText style={{ color: "#f5ffd7" }}>
+                    <NavLinkText style={{ color: "#fcfbff" }}>
                       Projects
                     </NavLinkText>
                   </ScrollLink>
